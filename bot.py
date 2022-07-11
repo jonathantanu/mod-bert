@@ -10,7 +10,7 @@ import numpy as np
 # Config
 client = commands.Bot(command_prefix="/")
 slash = SlashCommand(client, sync_commands=True)
-token = 'OTc2ODYwOTIxMTUyNTM2NjY2.GyTOdr.PeTN95Nj8mBz6ZCX7HrodwjGgC2CE4uFfM3MKE'
+token = ''
 BERT_pretrained_model = "MyBert"
 
 # Load Fine-Tuned model

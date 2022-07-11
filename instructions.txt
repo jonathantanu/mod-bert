@@ -19,7 +19,7 @@ the file in the github first
 
 Virtual Environment dependencies installation
 1. Create a folder and run cmd on that folder
-2. Create virtual environment with command 'python -m venv env_name'
+2. Create virtual environment with command 'python -m venv env'
 3. run call ./env/Scripts/activate in command prompt
 3. Execute 'pip install -r requirements.txt' and wait until it finishes downloading
 4. Run 'runbot.bat'

@@ -4,7 +4,9 @@ Please enable wordwrap in notepad for best visibility
    	                      ModBERT 1.0
 ================================================================
 
-This is a simple implementation for ModBERT, an IndoBERT based model that can detect hate speech in Indonesian language. For instructions on how to initialize the bot in local, please follow the instructions below, thanks!
+This is a simple implementation for ModBERT, an IndoBERT based model that can detect hate 
+speech in Indonesian language. For instructions on how to initialize the bot in local, 
+please follow the instructions below, thanks!
 
 Approximate size: 2.31 GB (including virtual environment such as torch, transformers, etc)
 
@@ -17,6 +19,7 @@ Initialize Dependencies from the beginning
 Virtual Environment dependencies installation
 1. Create a folder and run cmd on that folder
 2. Create virtual environment with command 'python -m venv env_name'
+3. run call './env/Scripts/activate' in command prompt
 3. Execute 'pip install -r requirements.txt' and wait until it finishes downloading
 4. Run 'runbot.bat'
 5. All dependencies is installed inside the folder
@@ -25,6 +28,9 @@ Global Dependencies:
 1. Open cmd
 2. Execute 'pip install -r requirements.txt' and wait until it finishes downloading
 3. Run 'runbot.bat'
+
+After installing the virtual environment dependencies, you can just run runbot.bat instead
+of repeating each steps.
 
 ================================================================
    	                    Information

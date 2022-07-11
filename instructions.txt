@@ -1,0 +1,39 @@
+Please enable wordwrap in notepad for best visibility
+
+==================================
+    	     MOD BERT 1.0
+==================================
+
+This is a simple implementation for ModBERT, an IndoBERT based model that can detect hate speech in Indonesian language. For instructions on how to initialize the bot in local, please follow the instructions below, thanks!
+
+Approximate size: 2.31 GB (including virtual environment such as torch, transformers, etc)
+
+================================================================
+   	                     How to Install
+================================================================
+
+Initialize Dependencies from the beginning
+
+Virtual Environment dependencies installation
+1. Create a folder and run cmd on that folder
+2. Create virtual environment with command 'python -m venv env_name'
+3. Activate the venv by entering './env/Scripts/activate' in the cmd
+4. Execute 'pip install -r requirements.txt' and wait until it finishes downloading
+5. Run 'runbot.bat'
+6. All dependencies is installed inside the folder
+
+Global Dependencies:
+1. Open cmd
+2. Execute 'pip install -r requirements.txt' and wait until it finishes downloading
+3. Run 'runbot.bat'
+
+================================================================
+   	                    Information
+================================================================
+
+There are 2 things that must be configured before running the bot:
+1. Token -- Open the bot.py with an IDE (VS Code, etc). Then, change the token to your discord bot token.
+2. BERT_pretrained_model -- change the name to your own BERT model / our model if necessary
+3. To run python, you must first download python / pip and add them to your global environment variables in windows.
+
+To close the bot, do ctrl + c combination and type Y then enter

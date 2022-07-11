@@ -6,3 +6,4 @@ if exist ".\env\Scripts\activate" (
 		pause
 	)
 python bot.py
+pause
